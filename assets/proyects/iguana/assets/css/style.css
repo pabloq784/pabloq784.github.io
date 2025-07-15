@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+.top {
+    text-align: center;
+    font-size: 50px;
+    font-family: raleway;  
+    width: 100%;
+    color:white;
+    background: #000000 0% 0% no-repeat padding-box;      
+}
+.fullheader {
+    width: 100%;    
+    opacity: 1;
+}
+.features {   
+    font-family: raleway; 
+    font-size: 300;    
+    display: flex; 
+    justify-content: center;
+    background-color: black; 
+    color: white;
+    padding-right: 10%; 
+    text-align: left;
+    flex-wrap: wrap;
+    white-space: pre-line;  
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-bottom: 3%;
+    margin-top: -4px;
+}    
+.iguana1 {
+    background-color: black;    
+    top: 845px;
+    left: 731px; 
+    width: 400px;
+    height: 237px;
+    padding-top: -4%;
+    padding-right: 20%;
+    padding-left:16%;
+    padding-bottom: 3%;
+} 
+.finaltext {
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    padding-top: 2%;    
+    font: normal normal 300 25px/30px Raleway;
+}
+.cuadro-iconos {
+    font: normal normal medium 40px/47px Raleway;
+    display: flex;         
+    letter-spacing: 0px;
+    padding: 6%; 
+    text-align: center;
+    justify-content: space-around;
+    align-content: space-between;
+
+ 
+}
+.iconos {
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-content: space-between;
+}
+.iconos, i {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    
+} 
+.iconos, span {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}  
+.finaltext {
+    font-family: raleway;
+    font-weight: 300;
+    background-color: #1E1A13;
+    color: white;
+    font-size: 24px;    
+}
+.finalImages {
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 4%;
+    padding-bottom: 4%;    
+}
+.imagefoot {
+    top: 1580px;
+    left: 820px;
+    width: 320px;
+    height: 210px;      
+}
+footer, a {
+    text-align: center;
+    font-family: raleway;
+    font-weight: 300;
+    width: 100%;
+    font-size: 20px;    
+    color: white;
+    background-color: #1E1A13;
+    /* background-color: rgb(32, 30, 30);   */
+    padding-top: 2%;
+    padding-bottom: 2%;    
+}

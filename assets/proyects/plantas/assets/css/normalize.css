@@ -1,0 +1,72 @@
+
+.header {
+    height: 14em;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 40px 40px 40px;
+    background-image: url(../imgs/plantatop.jpg)  
+}
+.header .main-text {
+    padding: 2em 3em 3em 3em; 
+    font-size: 40px;
+    font-weight: 400px;
+    color: white;
+    
+}
+p {
+   font-size: 18px;
+   margin-top: 3px;
+}
+.products {
+    display: flex;
+    flex-direction: column;
+}
+.products .img-01{
+    border: 2px solid black;
+    width: 250px;
+    margin: 20px 40px 40px 40px;
+}
+.products .img-02{
+    border: 2px solid black;
+    width: 250px;
+    margin: 20px 40px 40px 40px;
+}
+.products .img-03{
+    border: 2px solid black;
+    width: 250px;
+    margin: 20px 40px 15px 40px;
+}
+
+.tipoplanta {
+    text-align: center;    
+}
+.precio1 {
+    text-align: center;
+    margin: -20px 20px 20px 75px;
+    }
+.precio2 {
+    text-align: center;
+    margin: -20px 20px 20px 68px;
+}   
+.precio3 {
+    text-align: center;
+    margin: -20px 20px 20px 68px;
+} 
+
+.parrafo1 {
+    margin: -12rem 10rem 10rem -60rem;
+}
+.parrafo2 {
+    margin: -12rem 10rem 10rem -60rem;
+}
+.parrafo3 {
+    margin: -12rem 10rem 10rem -60rem;
+}
+
+.footer {
+    background-color: coral;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin: 2px 40px 40px 40px;
+}

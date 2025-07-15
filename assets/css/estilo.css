@@ -1,0 +1,66 @@
+body {
+  font-family: "DM Sans", sans-serif;
+html {
+  scroll-behavior: smooth;
+  }
+section {
+    scroll-margin-top: 80px; /* Ajusta el valor si el navbar tiene más o menos alto */
+  }
+}
+
+#Hero-Section {  
+  background-image: url("../img/bg-hero2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.back0 {
+ background-color: #e9c7a1 ;
+ background-size: cover;
+ padding-bottom: 60px;
+}
+.back1 {
+  background-color: #1e2126;
+}
+.back2 {
+  background-color:  #e9c7a1 ;
+}
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+  .navbar-brand{
+    width: 100px;
+  }
+}
+.rounded-circle {
+  color: #ff6600;   
+}
+#goTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+#goTop a {
+    background: #e71c0d;
+    color: red;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    transition: opacity 0.3s linear;
+    border-radius: 6px;
+}
+#goTop a:hover {
+      opacity: 0.7;
+    }
+  
+
+
+

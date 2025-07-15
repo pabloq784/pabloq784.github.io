@@ -1,0 +1,35 @@
+.h5-color {
+    color: #28A745;
+}
+.bg-color-nav {
+    background-color: #28A745;
+}
+.toggler-icon {
+    color:white;
+}
+.to-right{
+    text-align: left;    
+}
+.address { 
+    margin-top: -16px;
+}
+.contenedor-final {
+    background-color:#28A745;
+    margin-top: 20px;
+    margin-left: -2%;
+    margin-right: 16%;
+    padding: 3%;
+} 
+.reserved {
+    margin-top: 18px;
+    margin-left: -9%;
+    text-align: center;
+}
+.font {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.font-2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
