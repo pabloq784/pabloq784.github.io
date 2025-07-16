@@ -6,6 +6,7 @@ html {
 section {
     scroll-margin-top: 80px; /* Ajusta el valor si el navbar tiene más o menos alto */
   }
+  overflow-x: hidden;
 }
 
 #Hero-Section {  
