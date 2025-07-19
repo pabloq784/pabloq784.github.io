@@ -8,7 +8,6 @@ section {
   }
   overflow-x: hidden;
 }
-
 #Hero-Section {  
   background-image: url("../img/bg-hero2.jpg");
   background-repeat: no-repeat;
@@ -16,7 +15,7 @@ section {
   background-position: left;
 }
 .back0 {
- background-color: #c0b3a5 ;
+ background-color: #e9c7a1 ;
  background-size: cover;
  padding-bottom: 60px;
 }
@@ -24,7 +23,7 @@ section {
   background-color: #1e2126;
 }
 .back2 {
-  background-color:  #b3aba2 ;
+  background-color:   #e9c7a1 ;
 }
 #Contacto form label {
   font-weight: 700;
@@ -63,20 +62,17 @@ section {
     }
   
 .resaltado {
-
     background: linear-gradient(to right, #03ee49, #facc15);
     background-clip: text; /* recorta el fondo (background) al tamaño del texto. Es decir, que el fondo no se aplique al contenedor entero, sino solo sobre las letras. */
     -webkit-background-clip: text; /* necesario para Chrome/Safari/edge */
     -webkit-text-fill-color: transparent;   /* texto sea completamente transparente */
 }
-
 .typed-text {
   display: inline-block;
   min-width: 8ch;      /* evita que el ancho colapse al inicio */
   opacity: 0;
   transition: opacity 0.2s ease-in; /* Hace que el texto aparezca suavemente (con una transición) cuando cambia su opacity a 1. */
 }
-
 .typed-text:not(:empty) {    /*  el texto aparece suavemente y sin parpadeo.  */
   opacity: 1;
 }
