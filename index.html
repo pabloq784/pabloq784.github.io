@@ -15,15 +15,19 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target="#goTop" data-bs-offset="80" tabindex="0"> 
   <div id="topbar" class="topbar"></div>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid px-4" >
+        <div class="container-fluid px-4" >     
+
             <a class="navbar-brand ms-2" style="width: 180px;" href="#">
                 <img src="./assets/img/PQ-icon.png" class="img-fluid">
             </a>
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 me-4">
                     <li class="nav-item">
@@ -43,8 +47,8 @@
     <header id="Hero-Section" class="text-light text-end py-5 mt-5">
       <div class="container me-4">
             <div class="ms-auto col-12 col-md-7 ">
-                <h1 class="display-3 my-4 me-4">
-                    Pablo<br>Quincha
+                <h1 class="display-3 my-4 me-4">Pablo<br>
+                <span class="typed-text resaltado"></span>                  
                 </h1>
                 <p class="my-5 lead me-4">
                     Apasionado por la tecnología. Soy Desarrollador Front-End,<br> 
@@ -52,8 +56,8 @@
                      y de aplicativo según tus requerimientos. 
                 </p>
                 <div class="mb-5 pb-5 me-4">
-                    <a href="#scrollspyMis-trabajos" class="btn btn-lg btn-outline-warning text-light me-4 mb-1">Trabajos</a>
-                    <a href="./assets/documents/Pablo_CV.pdf"  target="_blank" download class="btn btn-lg btn-warning text-light ">Descargar CV</a>
+                    <a href="#scrollspyMis-trabajos" class="btn btn-lg btn-outline-warning text-light me-4 mb-1">Portafolio</a>
+                    <a href="./assets/documents/Pablo_CV.pdf" target="_blank" download class="btn btn-lg btn-warning text-light">Descargar CV</a>
                 </div>
             </div>
         </div>
@@ -92,7 +96,7 @@
               <p class="card-text text-center">
                 Sitio comercial e informativo sobre plantas...
               </p>
-              <div class="text-end">
+              <div class="text-center">
                 <a href="./assets/proyects/plantas/index.html" target="_blank" class="btn btn-outline-danger">Ver más</a>
               </div>
             </div>
@@ -109,7 +113,7 @@
               <p class="card-text text-center">
                 Sitio Landing Page informativo sobre iguanas...
               </p>
-              <div class="text-end">
+              <div class="text-center">
                 <a href="./assets/proyects/iguana/index.html" target="_blank" class="btn btn-outline-danger">Ver más</a>
               </div>
             </div>
@@ -126,7 +130,7 @@
               <p class="card-text text-center">
                 Sitio comercial e informativo sobre gastronomía, viajes y más....
               </p>
-              <div class="text-end">
+              <div class="text-center">
                 <a href="./assets/proyects/cuppon/index.html" target="_blank" class="btn btn-outline-danger">Ver más</a>
               </div>
             </div>
@@ -151,16 +155,16 @@
         <h2 class="display-4 my-4 text-center">Acerca de mi</h2>
         <p class="my-3 lead text-start" >
             Lo que me fascina del desarrollo web es el desafío constante. He adquirido
-            habilidades de forma autodidacta como a través de cursos, tanto en soporte informático como en 
-            tecnologías de desarrollo Front-End.
+            habilidades de forma autodidacta como a través de cursos formales, abarcando desde soporte informático como 
+            también en tecnologías de desarrollo Front-End.
         </p>
          <p class="my-3 lead text-left text-start">
             Me apasiona crear interfaces de usuario intuitivas y desarrollar aplicaciones
-            robustas que funcionen a la perfección.
+            robustas que funcionen con eficiencia y fluidez, transformando ideas en soluciones funcionales que generen una experiencia positiva.
         </p>
           <p class="my-3 lead text-left text-start">
-            El aprendizaje constante es mi filosofía. Cada nuevo problema es una oportunidad para aprender algo nuevo. 
-            Así que si tienes un desafío, estoy preparado para asumirlo.
+            El aprendizaje constante es mi filosofía. Cada nuevo desafío es una oportunidad para aprender algo nuevo. 
+            Así que si tienes un desafío o proyecto, estoy preparado para asumirlo.
         </p>
     </section>
   </div>
@@ -199,8 +203,8 @@
           <label class="mb-2">Mensaje</label>
           <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
         </div>
-        <div class="my-3 text-end text-end">
-          <button class="btn btn-info text-light">Enviar</button>
+        <div class="my-3 text-center text-end">
+          <button class="btn btn-outline-danger">Enviar</button>
         </div>
       </form>
     </div>
@@ -211,21 +215,11 @@
      <div id="goTop">
       <a href="#topbar" id="goTopbtn"><i class="fa-solid fa-chevron-up" style="color: #0f0f0e;"></i></a>
      </div>
-      <script>
-      let goTopbtn = document.getElementById("goTopbtn");
-      window.onscroll = function () {
-        scrollFunction();
-      };
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          goTopbtn.style.display = "flex";
-        } else {
-          goTopbtn.style.display = "none";
-        }
-      };
-    </script>
+
     <footer class="bg-dark text-center text-light p-4">
         <p class="mb-0">&copy 2025 Pablo Quincha. Todos los derechos reservados.</p>
     </footer>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script src="main.js"></script>
 </body>
 </html>
