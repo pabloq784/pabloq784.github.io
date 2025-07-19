@@ -25,6 +25,10 @@ overflow-x: hidden;
 .back2 {
   background-color:   #e9c7a1 ;
 }
+
+.cv{
+  margin-top: 40px;
+}
 #Contacto form label {
   font-weight: 700;
   color: #373a3c;
